@@ -20,7 +20,7 @@ import base64
 
 MAIN_KEY = base64.b64decode('WWcmdGMlREV1aDYlWmNeOA==')
 MAIN_IV = base64.b64decode('Nm95WkRyMjJFM3ljaGpNJQ==')
-RELEASEVERSION = "OB53"
+RELEASEVERSION = "OB54"
 USERAGENT = "Dalvik/2.1.0 (Linux; U; Android 13; CPH2095 Build/RKQ1.211119.001)"
 SUPPORTED_REGIONS = [
     "IND", "SG", "ID", "BR", "VN", "US", "SAC", "NA",
@@ -29,7 +29,7 @@ SUPPORTED_REGIONS = [
 
 # ---------- API KEY SYSTEM ----------
 
-API_KEY = "AJAY"
+API_KEY = "Ajay"
 
 # ---------- App Setup ----------
 
@@ -77,38 +77,37 @@ def get_account_credentials(region: str) -> str:
     r = region.upper()
 
     if r == "IND":
-        return "uid=4785816019&password=AGAJAYOFFICIAL_BYSTARGMR_VliKeDJm"
+        return "uid=6880898023&password=YASH_CODEX_gX7FJe"
 
     elif r in {"BR", "US", "SAC", "NA"}:
-        return "uid=4774366356&password=ADD_HERE"
+        return "uid=6880984166&password=YASH_CODEX_xcwavC"
 
     elif r == "VN":
         return "uid=4785840221&password=AGAJAYOFFICIAL_BYSTARGMR_gWqjnV5h"
 
     elif r == "SG":
-            return "uid=4785924003&password=STAR_BYSTARGMR_o7gOXdeu"
+            return "uid=6882558118&password=YASH_CODEX_67AiFk"
 
     elif r == "ID":
-        return "uid=4785828775&password=AGAJAYOFFICIAL_BYSTARGMR_Q5aKrAUG"
+        return "uid=6881131885&password=YASH_CODEX_eORgWx"
 
     elif r == "TH":
         return "uid=4785852999&password=AGAJAYOFFICIAL_BYSTARGMR_jh75eKnp"
 
     elif r == "TW":
-        return "uid=4785889155&password=STAR_BYSTARGMR_6FoIM9R1"
+        return "uid=6882633091&password=YASH_CODEX_uY2AUn"
 
     elif r == "BD":
-        return "uid=4785866117&password=Agajayofficial_BYSTARGMR_LtN6Zi2g"
+        return "uid=6882419962&password=YASH_CODEX_jYmOSo"
 
     elif r == "PK":
-        return "uid=4785879654&password=AGAJAYOFFICIAL_BYSTARGMR_Q9dRZSoi"
+        return "uid=6882521264&password=YASH_CODEX_C5du3P"
 
     elif r == "ME":
         return "uid=4785802478&password=AGAJAYOFFICIAL_BYSTARGMR_jmQYw5Ak"
 
     elif r == "RU":
-        return "uid=4785924003&password=STAR_BYSTARGMR_o7gOXdeu"
-
+        return "uid=6882597513&password=YASH_CODEX_cqwvDE"
     elif r == "CIS":
         return "uid=4785899948&password=STAR_BYSTARGMR_q8Z2nZ3q"
 
